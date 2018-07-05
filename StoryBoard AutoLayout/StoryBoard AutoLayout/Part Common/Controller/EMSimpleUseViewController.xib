@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EMSimpleUseViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EwM-jt-Uoc">
+                    <rect key="frame" x="10" y="507" width="172.5" height="80"/>
+                    <color key="backgroundColor" red="1" green="0.50297200807456399" blue="0.43462211263863293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="bAJ-SX-KAV"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PjO-qL-fKF">
+                    <rect key="frame" x="10" y="607" width="355" height="50"/>
+                    <color key="backgroundColor" red="0.53814451283346498" green="0.63488064629409879" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="tLk-K9-aHw"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0b-eA-0r3">
+                    <rect key="frame" x="192.5" y="507" width="172.5" height="80"/>
+                    <color key="backgroundColor" red="0.31707925569145667" green="1" blue="0.32763480606218698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="PjO-qL-fKF" secondAttribute="trailing" constant="10" id="2P2-Tv-IRv"/>
+                <constraint firstItem="PjO-qL-fKF" firstAttribute="top" secondItem="EwM-jt-Uoc" secondAttribute="bottom" constant="20" id="Dfc-x4-xb3"/>
+                <constraint firstItem="f0b-eA-0r3" firstAttribute="centerY" secondItem="EwM-jt-Uoc" secondAttribute="centerY" id="MWp-9v-Ufy"/>
+                <constraint firstItem="PjO-qL-fKF" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="Tdg-ls-6nk"/>
+                <constraint firstItem="f0b-eA-0r3" firstAttribute="leading" secondItem="EwM-jt-Uoc" secondAttribute="trailing" constant="10" id="UnC-bc-Stg"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="f0b-eA-0r3" secondAttribute="trailing" constant="10" id="VN3-2S-5zl"/>
+                <constraint firstItem="EwM-jt-Uoc" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="X4T-3N-WaI"/>
+                <constraint firstItem="f0b-eA-0r3" firstAttribute="width" secondItem="EwM-jt-Uoc" secondAttribute="width" id="bgn-Gw-HNG"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="PjO-qL-fKF" secondAttribute="bottom" constant="10" id="fy4-25-n85"/>
+                <constraint firstItem="f0b-eA-0r3" firstAttribute="height" secondItem="EwM-jt-Uoc" secondAttribute="height" id="or9-Ht-Lrc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="33.5" y="71.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EMAnimationViewController">
+            <connections>
+                <outlet property="rightView" destination="tae-m7-2mq" id="mxL-tb-3Fb"/>
+                <outlet property="rotateView" destination="JXo-Xc-QCT" id="iTQ-Zl-cv4"/>
+                <outlet property="space" destination="uuh-xr-Egt" id="8OZ-GU-4t1"/>
+                <outlet property="swiOp" destination="zt8-Ex-nYb" id="pui-WA-Pt0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zt8-Ex-nYb">
+                    <rect key="frame" x="157.5" y="34" width="62" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="47" id="LAe-KS-J0X"/>
+                        <constraint firstAttribute="height" constant="31" id="LCk-bh-9rE"/>
+                        <constraint firstAttribute="width" constant="60" id="Vl1-bd-uZ2"/>
+                    </constraints>
+                    <connections>
+                        <action selector="swichClick:" destination="-1" eventType="valueChanged" id="UoG-cT-1b3"/>
+                    </connections>
+                </switch>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wx4-nh-SN4">
+                    <rect key="frame" x="10" y="85" width="172.5" height="128"/>
+                    <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="Uky-li-KQo"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sya-nx-5yF">
+                    <rect key="frame" x="192.5" y="85" width="172.5" height="128"/>
+                    <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JXo-Xc-QCT">
+                    <rect key="frame" x="108" y="379" width="159" height="159"/>
+                    <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="159" id="VFb-db-tkR"/>
+                        <constraint firstAttribute="width" secondItem="JXo-Xc-QCT" secondAttribute="height" id="zzi-8J-2Qc"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXI-TF-3d6">
+                    <rect key="frame" x="167" y="293" width="41" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="旋转"/>
+                    <connections>
+                        <action selector="rotateClick:" destination="-1" eventType="touchUpInside" id="O22-5E-KY3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fO-Gw-9kd">
+                    <rect key="frame" x="58" y="293" width="58" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="360度"/>
+                    <connections>
+                        <action selector="rotate360:" destination="-1" eventType="touchUpInside" id="Vmp-ll-mUF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Sya-nx-5yF" firstAttribute="centerY" secondItem="Wx4-nh-SN4" secondAttribute="centerY" id="1Vr-bZ-ZJ4"/>
+                <constraint firstItem="6fO-Gw-9kd" firstAttribute="centerY" secondItem="bXI-TF-3d6" secondAttribute="centerY" id="9JW-Q7-Pss"/>
+                <constraint firstItem="JXo-Xc-QCT" firstAttribute="top" secondItem="bXI-TF-3d6" secondAttribute="bottom" constant="50" id="Bc1-9J-YhW"/>
+                <constraint firstItem="zt8-Ex-nYb" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="14" id="GiD-ry-xrl"/>
+                <constraint firstItem="Wx4-nh-SN4" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="KD9-dE-JLY"/>
+                <constraint firstItem="JXo-Xc-QCT" firstAttribute="centerX" secondItem="bXI-TF-3d6" secondAttribute="centerX" id="N3j-h6-RL3"/>
+                <constraint firstItem="bXI-TF-3d6" firstAttribute="top" secondItem="Wx4-nh-SN4" secondAttribute="bottom" constant="80" id="OUn-Ug-Njj"/>
+                <constraint firstItem="Sya-nx-5yF" firstAttribute="height" secondItem="Wx4-nh-SN4" secondAttribute="height" id="UdX-QX-RBY"/>
+                <constraint firstItem="Sya-nx-5yF" firstAttribute="width" secondItem="Wx4-nh-SN4" secondAttribute="width" id="Vjh-z2-2rV"/>
+                <constraint firstAttribute="trailing" secondItem="Wx4-nh-SN4" secondAttribute="trailing" priority="750" constant="10" id="ba2-TW-kx9"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Sya-nx-5yF" secondAttribute="trailing" priority="750" constant="10" id="tae-m7-2mq"/>
+                <constraint firstItem="zt8-Ex-nYb" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="uPd-V0-Lcp"/>
+                <constraint firstItem="Sya-nx-5yF" firstAttribute="leading" secondItem="Wx4-nh-SN4" secondAttribute="trailing" constant="10" id="uuh-xr-Egt"/>
+                <constraint firstItem="bXI-TF-3d6" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="yyR-6c-Lxr"/>
+                <constraint firstItem="6fO-Gw-9kd" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="58" id="yyz-By-fNc"/>
+                <constraint firstItem="Wx4-nh-SN4" firstAttribute="top" secondItem="zt8-Ex-nYb" secondAttribute="bottom" constant="20" id="z4B-ab-tUX"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="33.5" y="72.5"/>
+        </view>
+    </objects>
+</document>
