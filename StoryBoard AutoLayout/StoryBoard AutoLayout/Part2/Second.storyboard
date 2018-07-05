@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="-829" y="-526"/>
         </scene>
-        <!--View Controller-->
+        <!--Second Yellow View Controller-->
         <scene sceneID="Ny5-RM-aqi">
             <objects>
-                <viewController storyboardIdentifier="secondYellowVc" id="YZi-gZ-qP6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondYellowVc" id="YZi-gZ-qP6" customClass="SecondYellowViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pba-Mh-FsW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

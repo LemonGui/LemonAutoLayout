@@ -26,6 +26,7 @@
             break;
         case 1:
             vc = [secondStory instantiateViewControllerWithIdentifier:@"secondYellowVc"];
+             [vc setValue:@"代码跳转" forKey:@"vcTitle"];
             break;
         case 2:
             secondStory = [UIStoryboard storyboardWithName:@"First-AutoLayout" bundle:nil];
@@ -36,8 +37,35 @@
     }
     
     [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
+//手动segue
+- (IBAction)segueManual:(id)sender {
+    [self performSegueWithIdentifier:@"gotoYellowVc" sender:sender];
+}
+
+
+//
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(nullable id)sender{
+    return YES;
+}
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([sender isKindOfClass:[UIButton class]]) {
+    }
+    UIViewController * vc = segue.destinationViewController;
+    if ([vc  isKindOfClass:NSClassFromString(@"SecondYellowViewController")]) {
+        if (((UIButton *)sender).tag == 100) {
+             [vc setValue:@"segue跳转(手动触发)" forKey:@"vcTitle"];
+        }else{
+            [vc setValue:@"segue跳转" forKey:@"vcTitle"];
+        }
+    }
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

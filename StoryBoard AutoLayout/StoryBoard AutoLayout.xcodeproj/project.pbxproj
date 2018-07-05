@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C29D8CB20EE1AE700B14E9A /* SecondYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C29D8CA20EE1AE700B14E9A /* SecondYellowViewController.m */; };
+		6C3789A520EDFB5C00F05D29 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C3789A420EDFB5C00F05D29 /* Default.png */; };
 		6C841C1520E4A8C6008E67B2 /* StoryBoard_AutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C841C1420E4A8C6008E67B2 /* StoryBoard_AutoLayoutTests.m */; };
 		6C841C2020E4A8C6008E67B2 /* StoryBoard_AutoLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C841C1F20E4A8C6008E67B2 /* StoryBoard_AutoLayoutUITests.m */; };
 		6CCBF2EC20EDBD3D00866061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBF2C320EDBD3C00866061 /* main.m */; };
@@ -51,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C29D8C920EE1AE700B14E9A /* SecondYellowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondYellowViewController.h; sourceTree = "<group>"; };
+		6C29D8CA20EE1AE700B14E9A /* SecondYellowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondYellowViewController.m; sourceTree = "<group>"; };
+		6C3789A420EDFB5C00F05D29 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6C841BF820E4A8C3008E67B2 /* StoryBoard AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StoryBoard AutoLayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C841BFB20E4A8C3008E67B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C841C1020E4A8C6008E67B2 /* StoryBoard AutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StoryBoard AutoLayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				6CCBF2C720EDBD3C00866061 /* Second.storyboard */,
+				6C29D8C920EE1AE700B14E9A /* SecondYellowViewController.h */,
+				6C29D8CA20EE1AE700B14E9A /* SecondYellowViewController.m */,
 			);
 			path = Part2;
 			sourceTree = "<group>";
@@ -191,6 +198,7 @@
 		6CCBF2C820EDBD3C00866061 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				6C3789A420EDFB5C00F05D29 /* Default.png */,
 				6CCBF2C920EDBD3C00866061 /* Assets.xcassets */,
 				6CCBF2CA20EDBD3C00866061 /* status.json */,
 			);
@@ -378,6 +386,7 @@
 				6CCBF2F920EDBD3D00866061 /* EMScaleViewController.xib in Resources */,
 				6CCBF2FF20EDBD3D00866061 /* EMStatusViewController.xib in Resources */,
 				6CCBF2EF20EDBD3D00866061 /* Assets.xcassets in Resources */,
+				6C3789A520EDFB5C00F05D29 /* Default.png in Resources */,
 				6CCBF2FB20EDBD3D00866061 /* EMSimpleUseViewController.xib in Resources */,
 				6CCBF2F020EDBD3D00866061 /* status.json in Resources */,
 			);
@@ -408,6 +417,7 @@
 				6CCBF2F720EDBD3D00866061 /* EMScaleViewController.m in Sources */,
 				6CCBF2EC20EDBD3D00866061 /* main.m in Sources */,
 				6CCBF2FD20EDBD3D00866061 /* EMSimpleUseViewController.m in Sources */,
+				6C29D8CB20EE1AE700B14E9A /* SecondYellowViewController.m in Sources */,
 				6CCBF30020EDBD3D00866061 /* EMStatusCell.m in Sources */,
 				6CCBF2F820EDBD3D00866061 /* EMAnimationViewController.m in Sources */,
 				6CCBF30F20EDC73A00866061 /* ThirdRootController.m in Sources */,

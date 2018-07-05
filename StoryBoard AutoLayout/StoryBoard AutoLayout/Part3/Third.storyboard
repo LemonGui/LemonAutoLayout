@@ -40,7 +40,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="storyBord Reference"/>
                                 <connections>
-                                    <segue destination="tqQ-Vd-1z9" kind="show" id="mlG-QV-vNh"/>
+                                    <segue destination="tqQ-Vd-1z9" kind="show" identifier="gotoYellowVc" id="mlG-QV-vNh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dza-XF-lm1">
@@ -65,6 +65,14 @@
                                 <state key="normal" title="code-&gt;StoryBoard VC"/>
                                 <connections>
                                     <action selector="codeRefrenceStoryBoadVc:" destination="R34-Bm-4NN" eventType="touchUpInside" id="T0q-Yx-YM9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMM-hd-4dZ">
+                                <rect key="frame" x="141" y="267" width="73" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="手动segue"/>
+                                <connections>
+                                    <action selector="segueManual:" destination="R34-Bm-4NN" eventType="touchUpInside" id="cfQ-UV-E8w"/>
                                 </connections>
                             </button>
                         </subviews>

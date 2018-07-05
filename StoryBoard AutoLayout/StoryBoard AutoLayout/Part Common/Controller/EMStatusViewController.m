@@ -46,6 +46,9 @@
     return cell;
 }
 
-
+-(void)setVcTitle:(NSString *)vcTitle{
+    _vcTitle = vcTitle;
+    self.title = vcTitle;
+}
 
 @end
