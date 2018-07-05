@@ -244,20 +244,20 @@
 		6CCBF2D920EDBD3C00866061 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6CCBF2DA20EDBD3C00866061 /* EMScaleViewController.m */,
-				6CCBF2DB20EDBD3C00866061 /* EMAnimationViewController.m */,
-				6CCBF2DC20EDBD3C00866061 /* EMScaleViewController.xib */,
+				6CCBF2E720EDBD3C00866061 /* EMAutoLayoutTableViewController.h */,
 				6CCBF2DE20EDBD3C00866061 /* EMAutoLayoutTableViewController.m */,
 				6CCBF2DF20EDBD3C00866061 /* EMSimpleUseViewController.h */,
+				6CCBF2E420EDBD3C00866061 /* EMSimpleUseViewController.m */,
 				6CCBF2E020EDBD3C00866061 /* EMSimpleUseViewController.xib */,
 				6CCBF2E120EDBD3C00866061 /* EMScaleViewController.h */,
+				6CCBF2DA20EDBD3C00866061 /* EMScaleViewController.m */,
+				6CCBF2DC20EDBD3C00866061 /* EMScaleViewController.xib */,
 				6CCBF2DD20EDBD3C00866061 /* EMStatusViewController.h */,
 				6CCBF2E220EDBD3C00866061 /* EMStatusViewController.m */,
 				6CCBF2E620EDBD3C00866061 /* EMStatusViewController.xib */,
 				6CCBF2E320EDBD3C00866061 /* EMAnimationViewController.h */,
-				6CCBF2E420EDBD3C00866061 /* EMSimpleUseViewController.m */,
+				6CCBF2DB20EDBD3C00866061 /* EMAnimationViewController.m */,
 				6CCBF2E520EDBD3C00866061 /* EMAnimationViewController.xib */,
-				6CCBF2E720EDBD3C00866061 /* EMAutoLayoutTableViewController.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
