@@ -30,7 +30,6 @@
 		6CCBF30020EDBD3D00866061 /* EMStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBF2E920EDBD3C00866061 /* EMStatusCell.m */; };
 		6CCBF30120EDBD3D00866061 /* EMStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CCBF2EB20EDBD3C00866061 /* EMStatusCell.xib */; };
 		6CCBF30820EDC26100866061 /* First-AutoLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CCBF30720EDC26100866061 /* First-AutoLayout.storyboard */; };
-		6CCBF30C20EDC3B500866061 /* EMStatusViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CCBF30B20EDC3B500866061 /* EMStatusViewController.storyboard */; };
 		6CCBF30F20EDC73A00866061 /* ThirdRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBF30E20EDC73A00866061 /* ThirdRootController.m */; };
 /* End PBXBuildFile section */
 
@@ -88,7 +87,6 @@
 		6CCBF2EB20EDBD3C00866061 /* EMStatusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMStatusCell.xib; sourceTree = "<group>"; };
 		6CCBF30520EDBE6600866061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Info.plist; sourceTree = "<group>"; };
 		6CCBF30720EDC26100866061 /* First-AutoLayout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "First-AutoLayout.storyboard"; sourceTree = "<group>"; };
-		6CCBF30B20EDC3B500866061 /* EMStatusViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EMStatusViewController.storyboard; sourceTree = "<group>"; };
 		6CCBF30D20EDC73A00866061 /* ThirdRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdRootController.h; sourceTree = "<group>"; };
 		6CCBF30E20EDC73A00866061 /* ThirdRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdRootController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,7 +246,6 @@
 				6CCBF2DD20EDBD3C00866061 /* EMStatusViewController.h */,
 				6CCBF2E220EDBD3C00866061 /* EMStatusViewController.m */,
 				6CCBF2E620EDBD3C00866061 /* EMStatusViewController.xib */,
-				6CCBF30B20EDC3B500866061 /* EMStatusViewController.storyboard */,
 				6CCBF2E320EDBD3C00866061 /* EMAnimationViewController.h */,
 				6CCBF2E420EDBD3C00866061 /* EMSimpleUseViewController.m */,
 				6CCBF2E520EDBD3C00866061 /* EMAnimationViewController.xib */,
@@ -373,7 +370,6 @@
 				6CCBF2EE20EDBD3D00866061 /* Second.storyboard in Resources */,
 				6CCBF30120EDBD3D00866061 /* EMStatusCell.xib in Resources */,
 				6CCBF2F520EDBD3D00866061 /* Third.storyboard in Resources */,
-				6CCBF30C20EDC3B500866061 /* EMStatusViewController.storyboard in Resources */,
 				6CCBF2FE20EDBD3D00866061 /* EMAnimationViewController.xib in Resources */,
 				6CCBF30820EDC26100866061 /* First-AutoLayout.storyboard in Resources */,
 				6CCBF2F220EDBD3D00866061 /* Main.storyboard in Resources */,

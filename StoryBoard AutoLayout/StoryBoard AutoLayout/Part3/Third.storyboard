@@ -34,6 +34,40 @@
                     <view key="view" contentMode="scaleToFill" id="36R-Tq-TWF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yH9-HK-qC2">
+                                <rect key="frame" x="117" y="318" width="141" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="storyBord Reference"/>
+                                <connections>
+                                    <segue destination="tqQ-Vd-1z9" kind="show" id="mlG-QV-vNh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dza-XF-lm1">
+                                <rect key="frame" x="111" y="388" width="152" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="code-&gt;StoryBoard VC"/>
+                                <connections>
+                                    <action selector="codeRefrenceStoryBoadVc:" destination="R34-Bm-4NN" eventType="touchUpInside" id="wKM-kr-mWX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSO-D3-iR5">
+                                <rect key="frame" x="111" y="426" width="152" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="code-&gt;StoryBoard VC"/>
+                                <connections>
+                                    <action selector="codeRefrenceStoryBoadVc:" destination="R34-Bm-4NN" eventType="touchUpInside" id="Z1R-fE-h2g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRy-QV-d0Y">
+                                <rect key="frame" x="111" y="464" width="152" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="code-&gt;StoryBoard VC"/>
+                                <connections>
+                                    <action selector="codeRefrenceStoryBoadVc:" destination="R34-Bm-4NN" eventType="touchUpInside" id="T0q-Yx-YM9"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="Wff-mO-3qD"/>
                     </view>
@@ -48,6 +82,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FhZ-W0-evW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1506" y="524"/>
+        </scene>
+        <!--secondYellowVc-->
+        <scene sceneID="rpp-LQ-17S">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Second" referencedIdentifier="secondYellowVc" id="tqQ-Vd-1z9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TNY-kg-YMw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-816" y="448"/>
         </scene>
     </scenes>
 </document>

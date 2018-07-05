@@ -17,6 +17,28 @@
     [self.navigationController pushViewController:[NSClassFromString(@"EMStatusViewController") new] animated:YES];
 }
 
+- (IBAction)codeRefrenceStoryBoadVc:(UIButton *)sender {
+    UIStoryboard * secondStory = [UIStoryboard storyboardWithName:@"Second" bundle:nil];
+    UIViewController * vc = nil;
+    switch (sender.tag) {
+        case 0:
+            vc = [secondStory instantiateViewControllerWithIdentifier:@"secondRootVc"];
+            break;
+        case 1:
+            vc = [secondStory instantiateViewControllerWithIdentifier:@"secondYellowVc"];
+            break;
+        case 2:
+            secondStory = [UIStoryboard storyboardWithName:@"First-AutoLayout" bundle:nil];
+            vc = [secondStory instantiateInitialViewController];
+            break;
+        default:
+            break;
+    }
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
