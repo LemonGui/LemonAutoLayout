@@ -265,8 +265,8 @@
 		6CCBF2E820EDBD3C00866061 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6CCBF2E920EDBD3C00866061 /* EMStatusCell.m */,
 				6CCBF2EA20EDBD3C00866061 /* EMStatusCell.h */,
+				6CCBF2E920EDBD3C00866061 /* EMStatusCell.m */,
 				6CCBF2EB20EDBD3C00866061 /* EMStatusCell.xib */,
 			);
 			path = View;

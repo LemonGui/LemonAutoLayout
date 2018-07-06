@@ -12,4 +12,6 @@
 @property (nonatomic,strong) NSIndexPath * indexPath;
 @property (nonatomic,copy) NSString * title;
 @property (nonatomic,copy) NSString * contentText;
+@property (nonatomic,copy) NSString * imageUrl;
+
 @end

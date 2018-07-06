@@ -13,13 +13,18 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *titleTopMargin;
 @property (weak, nonatomic) IBOutlet UILabel *titleView;
 @property (weak, nonatomic) IBOutlet UILabel *postContentView;
+@property (weak, nonatomic) IBOutlet UIImageView *largeImageView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageH;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageBottom;
+@property (weak, nonatomic) IBOutlet UIImageView *iconView;
+
 @end
 
 @implementation EMStatusCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    
+    self.iconView.layer.cornerRadius = self.iconView.frame.size.width/2;
 }
 
 
@@ -39,6 +44,19 @@
     
     NSMutableAttributedString * att = [self attString:contentText lineSpace:6 font:16 color:[UIColor grayColor]];
     self.postContentView.attributedText = att;
+}
+
+-(void)setImageUrl:(NSString *)imageUrl{
+    _imageUrl = imageUrl;
+    if (imageUrl.length > 0) {
+        self.largeImageView.image = [UIImage imageNamed:@"girl"];
+        self.imageH.constant = 100;
+        self.imageBottom.constant = 10;
+    }else{
+        self.largeImageView.image = nil;
+        self.imageH.constant = 0;
+        self.imageBottom.constant = 0;
+    }
 }
 
 - (void)setIndexPath:(NSIndexPath *)indexPath{

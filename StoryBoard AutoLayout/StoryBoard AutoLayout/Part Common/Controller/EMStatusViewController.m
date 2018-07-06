@@ -40,8 +40,10 @@
     NSDictionary * dataDetail = self.dataArray[indexPath.row];
     NSString * title = [dataDetail objectForKey:@"post_title"];
     NSString * content = [dataDetail objectForKey:@"post_content"];
+    NSString * imageUrl = [dataDetail objectForKey:@"post_image"];
     cell.title = title;
     cell.contentText = content;
+    cell.imageUrl = imageUrl;
     cell.indexPath = indexPath;
     return cell;
 }
