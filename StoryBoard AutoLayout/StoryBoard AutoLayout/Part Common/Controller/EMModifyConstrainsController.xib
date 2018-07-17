@@ -32,11 +32,19 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a7-5C-IMV">
-                    <rect key="frame" x="142.5" y="326.5" width="90" height="39"/>
+                    <rect key="frame" x="76.5" y="326.5" width="222" height="39"/>
                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                    <state key="normal" title="修改约束"/>
+                    <state key="normal" title="修改约束（multiplier）"/>
                     <connections>
                         <action selector="modifyCons:" destination="-1" eventType="touchUpInside" id="AA2-1U-2tf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XpF-mA-FB7">
+                    <rect key="frame" x="79" y="385.5" width="217" height="39"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <state key="normal" title="修改约束（constant）"/>
+                    <connections>
+                        <action selector="modifyConstant:" destination="-1" eventType="touchUpInside" id="seF-fz-rFy"/>
                     </connections>
                 </button>
             </subviews>
@@ -44,9 +52,11 @@
             <constraints>
                 <constraint firstItem="9a7-5C-IMV" firstAttribute="top" secondItem="nsc-0M-Us0" secondAttribute="bottom" constant="30" id="44f-Ns-V6q"/>
                 <constraint firstItem="nsc-0M-Us0" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="8eh-gR-Sip"/>
+                <constraint firstItem="XpF-mA-FB7" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="A4y-mw-GnI"/>
                 <constraint firstItem="9a7-5C-IMV" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="Su8-Qd-WAv"/>
                 <constraint firstItem="nsc-0M-Us0" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="136" id="tCg-M4-Ylp"/>
                 <constraint firstItem="nsc-0M-Us0" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="w4E-aX-rch"/>
+                <constraint firstItem="XpF-mA-FB7" firstAttribute="top" secondItem="9a7-5C-IMV" secondAttribute="bottom" constant="20" id="wyp-dg-Gbg"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
         </view>

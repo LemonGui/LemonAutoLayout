@@ -28,7 +28,11 @@
     NSLayoutConstraint * new  = [NSLayoutConstraint constraintWithItem:self.contentView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeWidth multiplier:1.0/4 constant:0];
     
 //    NSLayoutConstraint * new  = [NSLayoutConstraint constraintWithItem:self.contentView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:0 constant:300];
+    self.widthConstains = new;
     [self.view addConstraint:new];
+}
+- (IBAction)modifyConstant:(id)sender {
+    self.widthConstains.constant = 50;
 }
 
 @end
