@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C210C5D20FDF25D001D81A0 /* EMModifyConstrainsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C210C5B20FDF25D001D81A0 /* EMModifyConstrainsController.m */; };
+		6C210C5E20FDF25D001D81A0 /* EMModifyConstrainsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C210C5C20FDF25D001D81A0 /* EMModifyConstrainsController.xib */; };
 		6C29D8CB20EE1AE700B14E9A /* SecondYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C29D8CA20EE1AE700B14E9A /* SecondYellowViewController.m */; };
 		6C3789A520EDFB5C00F05D29 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C3789A420EDFB5C00F05D29 /* Default.png */; };
 		6C841C1520E4A8C6008E67B2 /* StoryBoard_AutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C841C1420E4A8C6008E67B2 /* StoryBoard_AutoLayoutTests.m */; };
@@ -53,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C210C5A20FDF25D001D81A0 /* EMModifyConstrainsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMModifyConstrainsController.h; sourceTree = "<group>"; };
+		6C210C5B20FDF25D001D81A0 /* EMModifyConstrainsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMModifyConstrainsController.m; sourceTree = "<group>"; };
+		6C210C5C20FDF25D001D81A0 /* EMModifyConstrainsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EMModifyConstrainsController.xib; sourceTree = "<group>"; };
 		6C29D8C920EE1AE700B14E9A /* SecondYellowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondYellowViewController.h; sourceTree = "<group>"; };
 		6C29D8CA20EE1AE700B14E9A /* SecondYellowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondYellowViewController.m; sourceTree = "<group>"; };
 		6C3789A420EDFB5C00F05D29 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -252,6 +257,9 @@
 				6CCBF2E120EDBD3C00866061 /* EMScaleViewController.h */,
 				6CCBF2DA20EDBD3C00866061 /* EMScaleViewController.m */,
 				6CCBF2DC20EDBD3C00866061 /* EMScaleViewController.xib */,
+				6C210C5A20FDF25D001D81A0 /* EMModifyConstrainsController.h */,
+				6C210C5B20FDF25D001D81A0 /* EMModifyConstrainsController.m */,
+				6C210C5C20FDF25D001D81A0 /* EMModifyConstrainsController.xib */,
 				6CCBF2DD20EDBD3C00866061 /* EMStatusViewController.h */,
 				6CCBF2E220EDBD3C00866061 /* EMStatusViewController.m */,
 				6CCBF2E620EDBD3C00866061 /* EMStatusViewController.xib */,
@@ -377,6 +385,7 @@
 			files = (
 				6CCBF2EE20EDBD3D00866061 /* Second.storyboard in Resources */,
 				6CCBF30120EDBD3D00866061 /* EMStatusCell.xib in Resources */,
+				6C210C5E20FDF25D001D81A0 /* EMModifyConstrainsController.xib in Resources */,
 				6CCBF2F520EDBD3D00866061 /* Third.storyboard in Resources */,
 				6CCBF2FE20EDBD3D00866061 /* EMAnimationViewController.xib in Resources */,
 				6CCBF30820EDC26100866061 /* First-AutoLayout.storyboard in Resources */,
@@ -417,6 +426,7 @@
 				6CCBF2F720EDBD3D00866061 /* EMScaleViewController.m in Sources */,
 				6CCBF2EC20EDBD3D00866061 /* main.m in Sources */,
 				6CCBF2FD20EDBD3D00866061 /* EMSimpleUseViewController.m in Sources */,
+				6C210C5D20FDF25D001D81A0 /* EMModifyConstrainsController.m in Sources */,
 				6C29D8CB20EE1AE700B14E9A /* SecondYellowViewController.m in Sources */,
 				6CCBF30020EDBD3D00866061 /* EMStatusCell.m in Sources */,
 				6CCBF2F820EDBD3D00866061 /* EMAnimationViewController.m in Sources */,

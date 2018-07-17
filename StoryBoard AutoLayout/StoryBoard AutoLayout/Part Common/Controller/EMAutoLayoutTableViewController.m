@@ -22,6 +22,7 @@
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     self.titleData = @[@{TITLE_KEY:@"基本使用",CLASSNAME_KEY:@"EMSimpleUseViewController"},
                        @{TITLE_KEY:@"设置比例",CLASSNAME_KEY:@"EMScaleViewController"},
+                       @{TITLE_KEY:@"修改约束",CLASSNAME_KEY:@"EMModifyConstrainsController"},
                        @{TITLE_KEY:@"TableView自动布局",CLASSNAME_KEY:@"EMStatusViewController"},
                        @{TITLE_KEY:@"动画",CLASSNAME_KEY:@"EMAnimationViewController"}];
 }
